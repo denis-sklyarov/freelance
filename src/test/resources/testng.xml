@@ -1,0 +1,12 @@
+<suite name="TestAll">
+
+    <test name="order">
+        <classes>
+            <class name="com.example.Main">
+                <methods>
+                    <include name="testYA"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
