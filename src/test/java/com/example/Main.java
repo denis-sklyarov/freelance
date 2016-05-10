@@ -50,8 +50,8 @@ public class Main {
     public void setUp() throws Exception {
         //BONUS: if uncomment next two rows framework will automatically pull (if not exists) selenium images
         // and docker manage containers
-        prepareDocker(1);
-        waitForContainersStarted();
+        //prepareDocker(1);
+        //waitForContainersStarted();
         ////////////////////////////////
         DesiredCapabilities capabilities =  DesiredCapabilities.firefox();
         driver = new RemoteWebDriver(new URL("http://" + GRID_HOST + "/wd/hub"), capabilities);
